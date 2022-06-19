@@ -1,0 +1,310 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Camera">
+      <UniqueIdentifier>{a50b1799-4e3f-496c-b240-9bae823a23fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Map">
+      <UniqueIdentifier>{3ca929a3-abca-4156-b059-0bda75a85a42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Map Objects">
+      <UniqueIdentifier>{660a4f0f-1e17-4f11-a953-0fcd7267194d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes">
+      <UniqueIdentifier>{7407d560-195a-4350-af0f-469bfffdcc99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Grid">
+      <UniqueIdentifier>{4582578c-6f9b-4447-93c7-37f4991195b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HUD">
+      <UniqueIdentifier>{1a9439c4-39ed-47bc-b405-dd0bd17b9714}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Map Objects\Bricks">
+      <UniqueIdentifier>{04ed1306-509b-49ad-90d2-c575468e8c42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Map Objects\Enemies">
+      <UniqueIdentifier>{d63bf1ae-a480-4343-906e-6b4c73841d9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Map Objects\Items">
+      <UniqueIdentifier>{3abc4614-f76b-43ba-b3de-23012525f96a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Map Objects\Others">
+      <UniqueIdentifier>{665d4b12-ec0d-4cfd-a389-63eea4fd8b9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Map Objects\Player">
+      <UniqueIdentifier>{7a17b2a7-2c27-42d8-b260-83fe5838b707}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Map Objects\WorldMap">
+      <UniqueIdentifier>{755e4e7a-1df1-4dfe-9b73-ccaf15cb09ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Map Objects\Items\Coin">
+      <UniqueIdentifier>{54903cc4-9d83-487b-af8d-533326dd98b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Map Objects\Items\MushRoom">
+      <UniqueIdentifier>{b17804aa-6e0f-4729-9093-5181d4b83e3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Map Objects\Items\Leaf">
+      <UniqueIdentifier>{50adf38a-f93c-4425-8fa8-932f7b85c51b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Map Objects\Enemies\PiranhaPlant">
+      <UniqueIdentifier>{3cfa6e5f-131c-4038-bb27-ff83a8297609}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Map Objects\Enemies\PiranhaPlantFire">
+      <UniqueIdentifier>{0f82c105-e0d9-41f0-b1c3-2eead1b83554}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Map Objects\Others\FireBullet">
+      <UniqueIdentifier>{9e20a65e-4e24-499e-aca1-5cc2d077e06a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Map Objects\Items\Switch">
+      <UniqueIdentifier>{92cdcfb7-97c6-46fa-858f-5b28fa639ebd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Map Objects\Others\Tail">
+      <UniqueIdentifier>{208d2a80-0dbe-48a4-850a-c808b36506b0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Animations.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprites.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Textures.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SampleKeyEventHandler.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayScene.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Mario.cpp">
+      <Filter>Map Objects\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Goomba.cpp">
+      <Filter>Map Objects\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Brick.cpp">
+      <Filter>Map Objects\Bricks</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Map Objects\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="Portal.cpp">
+      <Filter>Map Objects\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Block.cpp">
+      <Filter>Map Objects\Bricks</Filter>
+    </ClCompile>
+    <ClCompile Include="QuestionBrick.cpp">
+      <Filter>Map Objects\Bricks</Filter>
+    </ClCompile>
+    <ClCompile Include="Coin.cpp">
+      <Filter>Map Objects\Items\Coin</Filter>
+    </ClCompile>
+    <ClCompile Include="MushRoom.cpp">
+      <Filter>Map Objects\Items\MushRoom</Filter>
+    </ClCompile>
+    <ClCompile Include="BreakableBrick.cpp">
+      <Filter>Map Objects\Bricks</Filter>
+    </ClCompile>
+    <ClCompile Include="BreakPiece.cpp">
+      <Filter>Map Objects\Bricks</Filter>
+    </ClCompile>
+    <ClCompile Include="Koopas.cpp">
+      <Filter>Map Objects\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Leaf.cpp">
+      <Filter>Map Objects\Items\Leaf</Filter>
+    </ClCompile>
+    <ClCompile Include="PiranhaPlantFire.cpp">
+      <Filter>Map Objects\Enemies\PiranhaPlantFire</Filter>
+    </ClCompile>
+    <ClCompile Include="FireBullet.cpp">
+      <Filter>Map Objects\Others\FireBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="PiranhaPlant.cpp">
+      <Filter>Map Objects\Enemies\PiranhaPlant</Filter>
+    </ClCompile>
+    <ClCompile Include="Switch.cpp">
+      <Filter>Map Objects\Items\Switch</Filter>
+    </ClCompile>
+    <ClCompile Include="Tail.cpp">
+      <Filter>Map Objects\Others\Tail</Filter>
+    </ClCompile>
+    <ClCompile Include="HUD.cpp">
+      <Filter>HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="Card.cpp">
+      <Filter>Map Objects\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="Point.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IntroScene.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldScene.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldMapObjects.cpp">
+      <Filter>Map Objects\WorldMap</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldPlayer.cpp">
+      <Filter>Map Objects\WorldMap</Filter>
+    </ClCompile>
+    <ClCompile Include="Backup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Animations.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AssetIDs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="debug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyEventHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprites.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Textures.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Brick.h">
+      <Filter>Map Objects\Bricks</Filter>
+    </ClInclude>
+    <ClInclude Include="Mario.h">
+      <Filter>Map Objects\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="SampleKeyEventHandler.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Map Objects\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayScene.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Goomba.h">
+      <Filter>Map Objects\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Portal.h">
+      <Filter>Map Objects\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Block.h">
+      <Filter>Map Objects\Bricks</Filter>
+    </ClInclude>
+    <ClInclude Include="QuestionBrick.h">
+      <Filter>Map Objects\Bricks</Filter>
+    </ClInclude>
+    <ClInclude Include="Coin.h">
+      <Filter>Map Objects\Items\Coin</Filter>
+    </ClInclude>
+    <ClInclude Include="MushRoom.h">
+      <Filter>Map Objects\Items\MushRoom</Filter>
+    </ClInclude>
+    <ClInclude Include="BreakableBrick.h">
+      <Filter>Map Objects\Bricks</Filter>
+    </ClInclude>
+    <ClInclude Include="BreakPiece.h">
+      <Filter>Map Objects\Bricks</Filter>
+    </ClInclude>
+    <ClInclude Include="Koopas.h">
+      <Filter>Map Objects\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Leaf.h">
+      <Filter>Map Objects\Items\Leaf</Filter>
+    </ClInclude>
+    <ClInclude Include="PiranhaPlant.h">
+      <Filter>Map Objects\Enemies\PiranhaPlant</Filter>
+    </ClInclude>
+    <ClInclude Include="PiranhaPlantFire.h">
+      <Filter>Map Objects\Enemies\PiranhaPlantFire</Filter>
+    </ClInclude>
+    <ClInclude Include="FireBullet.h">
+      <Filter>Map Objects\Others\FireBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Switch.h">
+      <Filter>Map Objects\Items\Switch</Filter>
+    </ClInclude>
+    <ClInclude Include="Tail.h">
+      <Filter>Map Objects\Others\Tail</Filter>
+    </ClInclude>
+    <ClInclude Include="HUD.h">
+      <Filter>HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="Card.h">
+      <Filter>Map Objects\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IntroScene.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldScene.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldMapObjects.h">
+      <Filter>Map Objects\WorldMap</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldPlayer.h">
+      <Filter>Map Objects\WorldMap</Filter>
+    </ClInclude>
+    <ClInclude Include="Backup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>
